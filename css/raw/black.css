@@ -4065,11 +4065,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
 
-/* downloads hint to black */
-
-#downloads_shift_hint { background: #545454 !important; color: #e6e6e6 !important; }
-
-#downloads_shift_hint .c-keyboard_key { background: #e8e8e8 !important ;border: 1px solid #919193 !important;= border-radius: 5px; box-shadow: 0 1px 0 #919193;color: #2c2d30;display: inline-block;font-size: 13px;font-weight: 400;height: 27px;line-height: 21px;margin: 0 2px;min-width: 24px;padding: 2px 8px;text-align: center; text-shadow: none; vertical-align: middle; }
-
-
+/* File meta */
+.c-file__meta { color: #e6e6e6; font-size: 13px; margin: 1px 0 0; background: #545454; }
+.c-file__slide--meta { background: #545454; left: 0; right: 0; white-space: nowrap; }
 
